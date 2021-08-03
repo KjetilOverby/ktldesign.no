@@ -17,6 +17,7 @@ const ImageSection = () => {
         text="Ta en kikk på våre biler, vi har et bredt utvalg og mange prisklasser.
         Vi tar gjerne i mot innbyttebil."
         btn="Til bilsalg"
+        goto="/bruktbiler"
       />
       <BoxComponent
         header="Verksted"

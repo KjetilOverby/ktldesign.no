@@ -43,7 +43,7 @@ const BoxComponent = ({ btn, header, icon, area, text, goto }) => {
             margin-top: -2rem;
           }
           .textContainer {
-            height: 11rem;
+            height: 8rem;
           }
         }
         @media (max-width: 1400px) {

@@ -10,6 +10,7 @@
   font-style: italic;
   padding: 2rem;
   grid-area: footer;
+  z-index: 100;
 }
 .firstContainer {
   grid-area: f;

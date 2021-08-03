@@ -36,7 +36,9 @@ const HeaderComponent = () => {
                   <Link href="/">
                     <p className="tabs-mobile">Hjem</p>
                   </Link>
-                  <p className="tabs-mobile">Bruktbiler</p>
+                  <Link href="/bruktbiler">
+                    <p className="tabs-mobile">Bruktbiler</p>
+                  </Link>
                   <Link href="/verksted">
                     <p className="tabs-mobile">Verksted</p>
                   </Link>
@@ -65,7 +67,9 @@ const HeaderComponent = () => {
               <Link href="/">
                 <p className="tabs">Hjem</p>
               </Link>
-              <p className="tabs">Bruktbiler</p>
+              <Link href="/bruktbiler">
+                <p className="tabs">Bruktbiler</p>
+              </Link>
               <Link href="/verksted">
                 <p className="tabs">Verksted</p>
               </Link>
