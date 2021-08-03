@@ -34,14 +34,16 @@ const HeaderComponent = () => {
                   }`}
                 >
                   <Link href="/">
-                    <p className="tabs">Hjem</p>
+                    <p className="tabs-mobile">Hjem</p>
                   </Link>
-                  <p className="tabs">Bruktbiler</p>
+                  <p className="tabs-mobile">Bruktbiler</p>
                   <Link href="/verksted">
-                    <p className="tabs">Verksted</p>
+                    <p className="tabs-mobile">Verksted</p>
                   </Link>
-                  <p className="tabs">Bilxtra</p>
-                  <p className="tabs">Kontakt Oss</p>
+                  <p className="tabs-mobile">Bilxtra</p>
+                  <Link href="/kontakt">
+                    <p className="tabs-mobile">Kontakt Oss</p>
+                  </Link>
                 </div>
               )}
               {openSidebar && (
@@ -68,7 +70,9 @@ const HeaderComponent = () => {
                 <p className="tabs">Verksted</p>
               </Link>
               <p className="tabs">Bilxtra</p>
-              <p className="tabs">Kontakt Oss</p>
+              <Link href="/kontakt">
+                <p className="tabs">Kontakt Oss</p>
+              </Link>
             </>
           )}
         </div>
@@ -104,10 +108,10 @@ const HeaderComponent = () => {
           z-index: 10;
         }
         .sidebar-open {
-          animation: slide 0.5s forwards;
+          animation: slide 0.3s forwards;
         }
         .sidebar-close {
-          animation: slideClose 1s forwards;
+          animation: slideClose 0.5s forwards;
         }
         @keyframes slide {
           0% {
@@ -128,6 +132,10 @@ const HeaderComponent = () => {
         .tabs {
           text-transform: uppercase;
           transition: 0.5s;
+        }
+        .tabs-mobile {
+          text-transform: uppercase;
+          font-size: 1.3rem;
         }
         .tabs:hover {
           cursor: pointer;
