@@ -10,7 +10,7 @@ const ImageSection = () => {
   return (
     <div className={styles.container}>
       <TopComponent />
-      <BoxComponent
+      {/* <BoxComponent
         header="Bilsalg"
         icon={<GiCarKey style={{ color: "#73c086", fontSize: "3rem" }} />}
         area="box1"
@@ -34,7 +34,7 @@ const ImageSection = () => {
         text=" Vi er en del av Bilxtra, Vi tilbyr også finansiering/delbetaling
         rentefritt i 12 mnd. medBilxtra konto."
         btn="Til Bilxtra"
-      />
+      /> */}
     </div>
   );
 };

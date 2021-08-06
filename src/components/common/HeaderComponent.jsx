@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useMediaQuery } from "react-responsive";
 import { IoMenuSharp } from "react-icons/io5";
 import Image from "next/image";
-import logo from "../../../assets/flisabil.png";
+import logo from "../../../assets/melby_bilsalg_logo.png";
 import Link from "next/link";
 
 const HeaderComponent = () => {
@@ -39,10 +39,9 @@ const HeaderComponent = () => {
                   <Link href="/bruktbiler">
                     <p className="tabs-mobile">Bruktbiler</p>
                   </Link>
-                  <Link href="/verksted">
-                    <p className="tabs-mobile">Verksted</p>
+                  <Link href="/about">
+                    <p className="tabs-mobile">Om Oss</p>
                   </Link>
-                  <p className="tabs-mobile">Bilxtra</p>
                   <Link href="/kontakt">
                     <p className="tabs-mobile">Kontakt Oss</p>
                   </Link>
@@ -70,10 +69,10 @@ const HeaderComponent = () => {
               <Link href="/bruktbiler">
                 <p className="tabs">Bruktbiler</p>
               </Link>
-              <Link href="/verksted">
-                <p className="tabs">Verksted</p>
+              <Link href="/about">
+                <p className="tabs">Om Oss</p>
               </Link>
-              <p className="tabs">Bilxtra</p>
+
               <Link href="/kontakt">
                 <p className="tabs">Kontakt Oss</p>
               </Link>
@@ -84,7 +83,7 @@ const HeaderComponent = () => {
       <style jsx>{`
         .container {
           height: 6rem;
-          background: #ffffff;
+          background: var(--primary);
           display: flex;
           align-items: center;
           justify-content: space-between;
@@ -102,7 +101,7 @@ const HeaderComponent = () => {
         }
         .sidebar-container {
           position: absolute;
-          background-color: #fff;
+          background-color: var(--primary);
           left: 0;
           width: 10rem;
           height: 80vh;
@@ -139,14 +138,14 @@ const HeaderComponent = () => {
         }
         .tabs-mobile {
           text-transform: uppercase;
-          font-size: 1.3rem;
+          font-size: 1.2rem;
         }
         .tabs:hover {
           cursor: pointer;
           color: #747474;
         }
         .tabContainer {
-          width: 40rem;
+          width: 30rem;
           height: 100%;
           display: flex;
           flex-direction: row;

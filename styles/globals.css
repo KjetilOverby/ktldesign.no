@@ -1,4 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500&display=swap");
+:root {
+  --primary: rgb(247, 239, 228);
+  --primary-background: rgb(34, 76, 124);
+  --text-image-section: rgb(247, 239, 228);
+  --text-footer: #333;
+  --header: rgb(109, 109, 109);
+}
 
 html,
 body {
@@ -19,16 +26,16 @@ a {
 .btn {
   width: 15rem;
   height: 2.8rem;
-  border: 1px solid #fff;
+  border: 1px solid var(--text-image-section);
   border-radius: 10rem;
   transition: 0.5s;
-  color: #8b8b8b;
+  color: var(--text-image-section);
   background-color: transparent;
   font-size: 1rem;
   outline: none;
 }
 .btn:hover {
-  background-color: #303030;
+  background-color: rgb(185, 226, 241);
   cursor: pointer;
 }
 .btn2 {
@@ -51,4 +58,7 @@ p {
 }
 .text {
   font-size: 1.2rem;
+}
+.header {
+  color: var(--header);
 }

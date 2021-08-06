@@ -5,9 +5,11 @@
 .header {
   margin: 0 0 3rem 0;
   font-size: 2rem;
+  color: var(--header);
 }
 .text {
   font-size: 1.2rem;
+  color: rgb(146, 146, 146);
 }
 @media screen and (max-width: 1990px) {
   .container {

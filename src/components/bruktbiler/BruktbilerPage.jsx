@@ -8,13 +8,13 @@ const BruktbilerPage = () => {
       <div className="main-container">
         <ImageHeader
           header="BRUKTBILER"
-          image="https://images.unsplash.com/photo-1495435229349-e86db7bfa013?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1529&q=80"
+          image="https://images.unsplash.com/photo-1535536556086-bc8a2b823706?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
         />
         <div className="container">
           <div className="iframe-container">
             <h1 className="header">Våre bruktbiler</h1>
             <Iframe
-              url="https://www.finn.no/pw/search/car-norway?orgId=1180510454"
+              url="https://www.finn.no/pw/search/car-norway?orgId=1336657620"
               id="myId"
               width="100%"
               height="100%"
@@ -27,24 +27,27 @@ const BruktbilerPage = () => {
           <div className="text-container">
             <h1 className="header">Kjøpe bruktbil?</h1>
             <p className="text">
-              Flisa Bil har drevet bilsalg siden 1985. Vi har biler i alle
-              prisklasser og selges med garanti med mindre noe annet er tydelig
-              opplyst.
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim
+              aliquam vel facilis unde odio cum, tenetur voluptatum dolores in
+              est, temporibus soluta impedit at quam autem necessitatibus,
+              obcaecati accusantium asperiores?
             </p>
             <p className="text">
-              Vi er godkjent som autoreg forhandler av Statens Vegevesen, dette
-              gjør at vi kan omregistrere og levere biler umiddelbart.
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam
+              voluptates voluptatum ad repudiandae eligendi repellat doloremque
+              temporibus deleniti. Necessitatibus repudiandae optio quam
+              doloremque animi consectetur voluptatem. Rem, inventore deserunt?
+              Atque!
             </p>
             <p className="text">
-              Vi er fleksible, serviceinnstilte og kan være behjelpelige med
-              «alt» i forbindelse med ditt bilkjøp. Finansiering, forsikring,
-              innbytte, verkstedtjenester, ruteskift, soting, dekkhotell, frakt
-              av bil, takstativ, skibokser og annet ekstrautstyr til bilen.
-            </p>
-            <p className="text">
-              Vi har for det meste mange flere biler enn de som er annonsert, vi
-              rekker ikke alltid å legge ut. Har du et spesielt ønske så ta
-              kontakt.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
+              corporis dicta, commodi aliquid nostrum quos rem facilis
+              exercitationem, totam reprehenderit quis in quisquam sapiente
+              recusandae, voluptatem unde ipsum eaque animi. Impedit nesciunt
+              placeat rem quisquam totam magnam, voluptates, libero quam nostrum
+              harum nemo. Saepe architecto enim voluptatem? Aliquam dolore
+              voluptas vitae esse eligendi, quia praesentium, totam, delectus
+              aperiam quam repudiandae!
             </p>
           </div>
         </div>

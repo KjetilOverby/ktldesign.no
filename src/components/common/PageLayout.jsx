@@ -10,7 +10,7 @@ const PageLayout = ({ children }) => {
           width: 100vw;
           display: grid;
           grid-template-columns: 1fr;
-          grid-template-rows: 6rem 1fr 16rem;
+          grid-template-rows: 6rem 1fr 18rem;
 
           grid-template-areas:
             "header"

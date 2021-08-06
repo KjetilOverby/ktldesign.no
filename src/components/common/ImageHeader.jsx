@@ -8,7 +8,11 @@ const ImageHeader = ({ header, image }) => {
       </div>
       <style jsx>{`
         .container {
-          background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+          background: linear-gradient(
+              to right,
+              var(--primary-background),
+              rgba(250, 251, 252, 0.144)
+            ),
             url(${image});
           height: 15rem;
           background-repeat: no-repeat;

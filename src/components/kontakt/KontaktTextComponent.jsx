@@ -6,20 +6,24 @@ const KontaktTextComponent = () => {
     <>
       <div className="container">
         <div className="first-container">
-          <h1>Flisa Bil AS</h1>
-          <p className="text text2">Negardsveien 8</p>
-          <p className="sub-name">2270 Flisa</p>
-          <p className="sub-name">Tel: 62 95 19 10</p>
-          <p className="sub-name">Mail: flisabil@online.no</p>
+          <h1>Melby Bil AS</h1>
+          <p className="text text2">Fredheimkrysset</p>
+          <p className="sub-name">2092 Minnesund</p>
+          <p className="sub-name">Tel: 63 96 88 70</p>
+          <p className="sub-name">Faks: 63 96 46 04</p>
+          <p className="sub-name">Mobil: 90 91 00 25</p>
+          <p className="sub-name">Email: melbybilsalg@gmail.com</p>
         </div>
         <div className="second-container">
-          <h1>Kontaktpersoner</h1>
-          <h2 className="name">Arild Nygaard</h2>
-          <p className="sub-name">Daglig leder/bilsalg</p>
-          <p className="sub-name">91 80 84 62</p>
-          <h2 className="name2">Harald Hegge</h2>
-          <p className="sub-name">Butikkansvarlig/verksted</p>
-          <p className="sub-name">94 00 56 23</p>
+          <h1>Beliggenhet</h1>
+          <p className="sub-name">
+            Beliggenheten er på Minnesund, kun 30 min. med flybussen nordover
+            fra Oslo Lufthavn Gardermoen.
+          </p>
+          <br />
+          <p className="sub-name">Avstand fra Gjøvik: 63 km.</p>
+          <p className="sub-name">Avstand fra Hamar: 53 km.</p>
+          <p className="sub-name">Avstand fra Oslo: 63 km.</p>
         </div>
         <div className="third-container">
           <h1>Facebook</h1>
@@ -44,6 +48,7 @@ const KontaktTextComponent = () => {
           grid-template-columns: 10rem 25rem 25rem 1fr 10rem;
           grid-template-areas: ". fc sc tc .";
           margin: 5rem 0;
+          grid-column-gap: 2rem;
         }
 
         .first-container {

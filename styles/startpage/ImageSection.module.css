@@ -1,13 +1,21 @@
+/* https://www.motortrend.com/uploads/sites/5/2020/03/2020-Volvo-XC60-T6-Inscription-dashboard.jpg?fit=around%7C1000:625
+
+
+https://images.unsplash.com/photo-1601026968687-64ea4ba3c36f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80
+
+https://images.unsplash.com/photo-1596704135179-3fb68121887d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80
+*/
+
 .container {
-  background: linear-gradient(to right, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.5)),
-    url("https://lh3.googleusercontent.com/pw/AM-JKLXEPyyr9SYZiLN4fEFLOBHrLmStqhbgSNyRF1HP9e_Bx-A2Joe0rSRwxYefd1VGOcq2t2vcsYcotklyun-hhgYY_DF7QnXJKoX1OddnPVeYsQDJuDIopF6sPQJl1z5mVNJ4LUqd_gzfiAyyiY293r6j=w1489-h838-no?authuser=0f");
-  height: 70vh;
+  background: linear-gradient(to right, var(--primary-background), transparent),
+    url("https://images.unsplash.com/photo-1601026968687-64ea4ba3c36f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+  height: 40vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: 0% 85%;
   display: grid;
   grid-template-rows: 5rem 10rem 1fr 30rem;
-  grid-template-columns: 25rem 1fr 1fr 1fr 25rem;
+  grid-template-columns: 25rem 40rem 1fr 1fr 25rem;
   grid-column-gap: 4rem;
   grid-template-areas:
     ". . . . ."
@@ -18,15 +26,15 @@
 @media screen and (max-width: 2150px) {
   .container {
     grid-template-rows: 5rem 10rem 1fr 20rem;
-    grid-template-columns: 18rem 1fr 1fr 1fr 18rem;
-    height: 80vh;
+    grid-template-columns: 12rem 40rem 1fr 1fr 12rem;
+    height: 50vh;
   }
 }
 @media screen and (max-width: 1750px) {
   .container {
     grid-template-rows: 5rem 10rem 12rem 20rem;
-    grid-template-columns: 5rem 1fr 1fr 1fr 5rem;
-    height: 100vh;
+    grid-template-columns: 5rem 40rem 1fr 1fr 5rem;
+    height: 50vh;
   }
 }
 @media screen and (max-width: 1450px) {
@@ -44,15 +52,15 @@
 @media screen and (max-width: 1300px) {
   .container {
     grid-template-rows: 2rem 10rem 1fr 25rem;
-    grid-template-columns: 5rem 1fr 1fr 1fr 5rem;
-    min-height: 120vh;
+    grid-template-columns: 5rem 40rem 1fr 1fr 5rem;
+    min-height: 40vh;
   }
 }
 @media screen and (max-width: 1100px) {
   .container {
-    min-height: 185vh;
+    min-height: 60vh;
     grid-template-rows: 2rem 10rem 10rem 20rem 20rem 20rem;
-    grid-template-columns: 1rem 1fr 1fr 1fr 1rem;
+    grid-template-columns: 1rem 40rem 1fr 1fr 1rem;
     grid-template-areas:
       ". . . . ."
       ". top top . ."
@@ -75,6 +83,8 @@
       ". box1 box1 box1 ."
       ". box2 box2 box2 ."
       ". box3 box3 box3 .";
+    min-height: 50vh;
+    background-position: 80% 85%;
   }
 }
 @media screen and (max-width: 600px) {
@@ -84,7 +94,6 @@
 }
 @media screen and (max-height: 600px) {
   .container {
-    min-height: 240vh;
     grid-template-rows: 2rem 10rem 1fr 25rem;
   }
 }
