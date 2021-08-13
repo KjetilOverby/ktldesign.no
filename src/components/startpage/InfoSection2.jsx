@@ -1,33 +1,31 @@
 import React from "react";
 
-const InfoSection = () => {
+const InfoSection2 = () => {
   return (
     <>
       <div className="container">
+        <div className="imgContainer">
+          <img
+            style={{ width: "100%" }}
+            src="https://images.unsplash.com/photo-1586281380426-f644f2dc6ada?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+            alt=""
+          />
+        </div>
         <div>
-          <h1 className="header">Eksisterende domene</h1>
+          <h1 className="header">Nytt domene</h1>
           <p className="text">
-            Når man skal ha en ny leverandør på et domene som du allerede eier
-            så må man logge inn på leverandøren sin nettside og gjøre om noen
-            innstilinger på domenet. Innstillingene er å gjøre om navneserverne
-            så ktl_design sine nettleverandører får tilgang til å publisere på
-            domenet. Dette kan man gjøre selv ved å få navenserverne som skal
-            legges inn, eller man kan gi oss tilgang så vi legger det inn for
-            deg.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta
+            ratione sequi quam animi, tempore tenetur, odio veniam earum, qui in
+            nesciunt saepe magnam provident autem ad? Nulla incidunt sint
+            voluptatum! deg.
           </p>
           <br />
           <p className="text">
-            Hvis du ikke har tilgang på ditt domene så kan du kontakte din
-            nåværende leverandør, mange leverandører innehar denne informasjonen
-            når de lager ferdige pakker med domene og nettside.
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
+            doloribus consequatur tenetur aliquid deleniti praesentium eligendi
+            adipisci, officia voluptatum fuga rem dolor. Temporibus expedita
+            quibusdam ipsum beatae hic, deserunt at.
           </p>
-        </div>
-        <div>
-          <img
-            style={{ width: "100%" }}
-            src="https://images.unsplash.com/photo-1496171367470-9ed9a91ea931?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-            alt=""
-          />
         </div>
       </div>
       <style jsx>{`
@@ -64,10 +62,13 @@ const InfoSection = () => {
             grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
             grid-column-gap: 0rem;
           }
+          .imgContainer {
+            order: 2;
+          }
         }
       `}</style>
     </>
   );
 };
 
-export default InfoSection;
+export default InfoSection2;
