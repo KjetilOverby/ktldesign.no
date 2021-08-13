@@ -47,7 +47,7 @@ const KontaktTextComponent = () => {
           display: grid;
           grid-template-columns: 10rem 25rem 25rem 1fr 10rem;
           grid-template-areas: ". fc sc tc .";
-          margin: 5rem 0;
+          margin: 5rem 0 16rem 0;
           grid-column-gap: 2rem;
         }
 
@@ -73,6 +73,11 @@ const KontaktTextComponent = () => {
         }
         .text2 {
           margin: 0;
+        }
+        @media screen and (max-width: 2100px) {
+          .container {
+            margin: 5rem 0 7rem 0;
+          }
         }
         @media screen and (max-width: 1000px) {
           .container {

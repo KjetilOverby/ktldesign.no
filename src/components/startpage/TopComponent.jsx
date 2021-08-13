@@ -5,16 +5,30 @@ import Link from "next/link";
 const TopComponent = () => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.header}>Velkommen til Melby Bilsalg</h1>
-      <p>
-        Melby Bilsalg har holdt på i en årrekke med brukte biler, og har alltid
-        hatt kunden i fokus, derav så mange fornøyde kunder. Vårt utvalg spenner
-        seg fra 2 - 15 år gamle biler.
-      </p>
-      <h4>Velkommen til en hyggelig bilprat og handel hos Melby Bilsalg</h4>
-      <Link href="/kontakt">
-        <button className="btn">Kontakt Oss</button>
-      </Link>
+      <h1 className={styles.header}>KTL DESIGN</h1>
+
+      <div className={styles.topHeaderContainer}>
+        <h1 className={styles.topheader1}>MAKE WEBSITE</h1>
+        <div className={styles.topHeader2Container}>
+          <h1 className={styles.topheader2}>MAKE</h1>
+          <h1 className={styles.topheader3}>DREAMS</h1>
+        </div>
+      </div>
+      <div className={styles.textContainer}>
+        <p className={styles.text}>
+          Jeg er en privatperson som jobber som freelancing og bygger statiske
+          nettsider til bedrifter og privat. Ingen store utgifter, men en
+          månedsleie av nettsiden etter at den er publisert. Avslutt leien når
+          som helst dersom du/dere vil gå over til en annen tjeneste.
+        </p>
+        <h4 className={styles.text2}>
+          Ta kontakt for en hyggelig og uforpliktende prat hvis du trenger en
+          nettside som ikke koster for mye.
+        </h4>
+        <Link href="/kontakt">
+          <button className="btn">Ta kontakt</button>
+        </Link>
+      </div>
     </div>
   );
 };

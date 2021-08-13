@@ -17,7 +17,7 @@ const HeaderComponent = () => {
     <>
       <div className="container">
         <div className="logoContainer">
-          <Image src={logo} />
+          <p className="logo-font">ktl_design</p>
         </div>
         <div className="tabContainer">
           {isMobile ? (
@@ -25,7 +25,7 @@ const HeaderComponent = () => {
               <IoMenuSharp
                 onClick={openSidebarHandler}
                 className="drawerIcon"
-                style={{ fontSize: "2rem" }}
+                style={{ fontSize: "2rem", color: "var(--start-page-yellow)" }}
               />
               {hideSidebar && (
                 <div
@@ -36,8 +36,8 @@ const HeaderComponent = () => {
                   <Link href="/">
                     <p className="tabs-mobile">Hjem</p>
                   </Link>
-                  <Link href="/bruktbiler">
-                    <p className="tabs-mobile">Bruktbiler</p>
+                  <Link href="/prosjekter">
+                    <p className="tabs-mobile">prosjekter</p>
                   </Link>
                   <Link href="/about">
                     <p className="tabs-mobile">Om Oss</p>
@@ -66,8 +66,8 @@ const HeaderComponent = () => {
               <Link href="/">
                 <p className="tabs">Hjem</p>
               </Link>
-              <Link href="/bruktbiler">
-                <p className="tabs">Bruktbiler</p>
+              <Link href="/prosjekter">
+                <p className="tabs">prosjekter</p>
               </Link>
               <Link href="/about">
                 <p className="tabs">Om Oss</p>
@@ -135,17 +135,20 @@ const HeaderComponent = () => {
         .tabs {
           text-transform: uppercase;
           transition: 0.5s;
+          color: var(--start-page-yellow);
+          font-size: 1rem;
         }
         .tabs-mobile {
           text-transform: uppercase;
           font-size: 1.2rem;
+          color: var(--start-page-yellow);
         }
         .tabs:hover {
           cursor: pointer;
           color: #747474;
         }
         .tabContainer {
-          width: 30rem;
+          width: 45rem;
           height: 100%;
           display: flex;
           flex-direction: row;

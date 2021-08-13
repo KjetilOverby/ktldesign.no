@@ -14,6 +14,9 @@ const MapSection = () => {
       <style jsx>{`
         .container {
           width: 100vw;
+          height: 17.2rem;
+          display: flex;
+          align-items: flex-end;
         }
       `}</style>
     </>

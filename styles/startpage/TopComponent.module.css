@@ -1,12 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap");
 .container {
   grid-area: top;
   color: var(--text-image-section);
+  padding-top: 10rem;
 }
 .header {
-  font-size: 2.8rem;
+  font-size: 50px;
+  margin: 0;
+  font-weight: 100;
+  color: var(--footer-text);
 }
-@media screen and (max-width: 700px) {
+.text {
+  margin-bottom: 2rem;
+}
+.text2 {
+  margin-bottom: 4rem;
+}
+.textContainer {
+  width: 70%;
+}
+
+.topheader1 {
+  font-size: 6rem;
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: var(--start-page-yellow);
+  animation: leftMove 1s;
+}
+.topheader2 {
+  font-size: 6rem;
+  margin-top: -3.3rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: #ff632f7c;
+  margin-bottom: 7rem;
+  transform: scale(1, -1);
+}
+.topheader3 {
+  font-size: 6rem;
+  margin-top: -3.6rem;
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: var(--secondary);
+  margin-left: 2.2rem;
+}
+.topHeaderContainer {
+  height: 18rem;
+}
+.topHeader2Container {
+  display: flex;
+  align-items: flex-start;
+  animation: rightMove 1s forwards;
+  animation-delay: 1s;
+  visibility: hidden;
+}
+
+@keyframes leftMove {
+  0% {
+    transform: translateX(-50rem);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes rightMove {
+  0% {
+    transform: translateX(50rem);
+    visibility: visible;
+  }
+  100% {
+    transform: translateX(0);
+    visibility: visible;
+  }
+}
+@media screen and (max-width: 2100px) {
+  .container {
+    padding-top: 5rem;
+  }
+  .topHeaderContainer {
+    height: 12rem;
+  }
+}
+@media screen and (max-width: 1750px) {
+  .topheader1 {
+    font-size: 5rem;
+  }
+  .topheader2 {
+    font-size: 5rem;
+    margin-top: -2.6rem;
+  }
+  .topheader3 {
+    font-size: 5rem;
+    margin-top: -2.9rem;
+    margin-left: 1.8rem;
+  }
+  .textContainer {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .header {
+    font-size: 2rem;
+  }
+  .container {
+    padding-top: 5rem;
+  }
+  .topheader1 {
+    font-size: 3rem;
+  }
+  .topheader2 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    margin-top: -1.5rem;
+  }
+  .topheader3 {
+    font-size: 3rem;
+    margin-top: -1.7rem;
+    margin-left: 1rem;
+  }
+  .topHeaderContainer {
+    height: 8rem;
+  }
+}
+
+@media screen and (max-width: 850px) {
   .header {
     font-size: 1.6rem;
+  }
+  .topheader1 {
+    font-size: 3rem;
+  }
+  .topheader2 {
+    font-size: 3rem;
+    margin-left: 0;
+    margin-top: -1rem;
+  }
+  .topHeaderContainer {
+    height: 5rem;
+  }
+}
+@media screen and (max-width: 650px) {
+  .header {
+    font-size: 1.6rem;
+  }
+  .topheader1 {
+    font-size: 2rem;
+  }
+  .topheader2 {
+    font-size: 2rem;
+    margin-left: 0;
+    margin-top: -1rem;
+  }
+  .topheader3 {
+    font-size: 2rem;
+    margin-left: 0.7rem;
+    margin-top: -1rem;
   }
 }

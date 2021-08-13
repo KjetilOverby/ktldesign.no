@@ -1,50 +1,93 @@
-/* https://www.motortrend.com/uploads/sites/5/2020/03/2020-Volvo-XC60-T6-Inscription-dashboard.jpg?fit=around%7C1000:625
+/* 
 
 
-https://images.unsplash.com/photo-1601026968687-64ea4ba3c36f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80
 
-https://images.unsplash.com/photo-1596704135179-3fb68121887d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80
+https://images.unsplash.com/photo-1458372128312-1d1c1dd115e4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80
+
+https://images.unsplash.com/photo-1516193313597-3ada7b1056a6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80
+
+https://images.unsplash.com/photo-1418793124283-7935cb656d02?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80
+
+
 */
 
 .container {
-  background: linear-gradient(to right, var(--primary-background), transparent),
-    url("https://images.unsplash.com/photo-1601026968687-64ea4ba3c36f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
-  height: 40vh;
+  background: linear-gradient(
+      to right,
+      var(--primary-background),
+      var(--primary-background2),
+      transparent
+    ),
+    url("https://images.unsplash.com/photo-1458372128312-1d1c1dd115e4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80");
+  height: 85vh;
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: 0% 85%;
+  background-position: 40% 65%;
   display: grid;
   grid-template-rows: 5rem 10rem 1fr 30rem;
   grid-template-columns: 25rem 40rem 1fr 1fr 25rem;
   grid-column-gap: 4rem;
   grid-template-areas:
     ". . . . ."
-    ". top . . ."
+    ". top top top ."
     ". center center center ."
     ". box1 box2 box3 .";
+  position: relative;
+  overflow: hidden;
+  background-attachment: fixed;
+}
+.topWave {
+  position: absolute;
+  top: -1px;
+}
+.topWave2 {
+  position: absolute;
+  top: 15px;
+  transform: rotate(2deg);
+}
+.topWave3 {
+  position: absolute;
+  top: 15px;
+  transform: rotate(-2deg);
+}
+.bottomWave {
+  position: absolute;
+  bottom: -1px;
+}
+.bottomWave2 {
+  position: absolute;
+  bottom: 15px;
+  transform: rotate(2deg);
+}
+.bottomWave3 {
+  position: absolute;
+  bottom: 15px;
+  transform: rotate(-1deg);
+  width: 110%;
 }
 @media screen and (max-width: 2150px) {
   .container {
     grid-template-rows: 5rem 10rem 1fr 20rem;
     grid-template-columns: 12rem 40rem 1fr 1fr 12rem;
-    height: 50vh;
+    height: 90vh;
+    background-position: 0% -40%;
   }
 }
 @media screen and (max-width: 1750px) {
   .container {
     grid-template-rows: 5rem 10rem 12rem 20rem;
     grid-template-columns: 5rem 40rem 1fr 1fr 5rem;
-    height: 50vh;
+    height: 90vh;
   }
 }
 @media screen and (max-width: 1450px) {
   .container {
     grid-template-rows: 5rem 10rem 8rem 20rem;
     grid-template-columns: 5rem 1fr 1fr 1fr 5rem;
-
+    background-position: 50% -1000%;
     grid-template-areas:
       ". . . . ."
-      ". top top . ."
+      ". top top top ."
       ". center center center ."
       ". box1 box2 box3 .";
   }
@@ -63,7 +106,7 @@ https://images.unsplash.com/photo-1596704135179-3fb68121887d?ixlib=rb-1.2.1&ixid
     grid-template-columns: 1rem 40rem 1fr 1fr 1rem;
     grid-template-areas:
       ". . . . ."
-      ". top top . ."
+      ". top top top ."
       ". center center . ."
       ". box1 box1 . ."
       ". box2 box2 . ."
@@ -90,6 +133,7 @@ https://images.unsplash.com/photo-1596704135179-3fb68121887d?ixlib=rb-1.2.1&ixid
 @media screen and (max-width: 600px) {
   .container {
     grid-template-rows: 2rem 20rem 10rem 22rem 22rem 22rem;
+    background-attachment: initial;
   }
 }
 @media screen and (max-height: 600px) {

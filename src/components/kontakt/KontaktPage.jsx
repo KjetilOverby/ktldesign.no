@@ -17,6 +17,9 @@ const KontaktPage = () => {
       <style jsx>{`
         .container {
           grid-area: content;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-between;
         }
       `}</style>
     </>

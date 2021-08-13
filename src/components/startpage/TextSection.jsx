@@ -1,23 +1,30 @@
 import React from "react";
 import styles from "../../../styles/startpage/TextSection.module.css";
+import InfoCard from "./InfoCard";
+import { MdImportantDevices } from "react-icons/md";
+import { GiEarthAmerica } from "react-icons/gi";
+import { FaServer } from "react-icons/fa";
 
 const TextSection = () => {
   return (
     <div className={styles.container}>
-      <h1 className={styles.header}>Kort om oss</h1>
-      <p className={styles.text}>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis,
-        dolores? Veniam id quisquam, eaque eum impedit, accusamus velit corrupti
-        obcaecati consequuntur voluptates eius saepe minus, perspiciatis
-        deserunt pariatur tempora dignissimos. Recusandae aliquam nostrum saepe
-        fugit rerum ducimus reiciendis autem laboriosam esse? Dicta ipsum
-        placeat sapiente optio libero, porro, rem veritatis provident quam
-        quisquam doloremque est, nihil sequi adipisci nostrum. Ea. Voluptatibus
-        consequuntur sit tempora excepturi illo provident, laborum quis officiis
-        porro doloribus iusto ullam, sint perferendis adipisci repellat corrupti
-        reiciendis nulla earum reprehenderit amet culpa? Possimus maxime animi
-        sapiente accusantium.
-      </p>
+      <InfoCard
+        icon={
+          <MdImportantDevices style={{ fontSize: "4rem", color: "#ffe400" }} />
+        }
+        header="Responsiv"
+        text="Over 50% bruker i dag mobil eller nettbrett til surfing. Det er derfor viktig at en nettside er responsiv. Dvs at nettsiden tar seg bra ut i alle skjermstørrelser fra små mobiler til store desktopskjermer. Hos ktl_design er alt innhold responive til alle skjermstørrelser."
+      />
+      <InfoCard
+        icon={<GiEarthAmerica style={{ fontSize: "4rem", color: "#14a76c" }} />}
+        header="Domene"
+        text="Bruk ditt eget domene eller skaff deg et nytt. ktl_design kan hjelpe til å skaffe et nytt domene. Tenk på hva domene ditt skal hete. Det er ikke sikkert at det er ledig, alle domenenavn i verden er unike og ingen kan ha helt like navn. "
+      />
+      <InfoCard
+        icon={<FaServer style={{ fontSize: "4rem", color: "#ff652f" }} />}
+        header="Hosting"
+        text="ktl design bruker Vercel for hosting av nettsider. Vercel bruker HTTPS/SSL som standard for bedre sikkerhet. Hosting av nettside er inkludert i månedsleien."
+      />
     </div>
   );
 };

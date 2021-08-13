@@ -3,7 +3,7 @@
 }
 .container {
   background: var(--primary);
-  color: var(--text-image-section);
+  color: var(--secondary);
   display: grid;
   grid-template-columns: 25rem 1fr 1fr 1fr 25rem;
   grid-template-areas: ". f s t .";
@@ -12,13 +12,20 @@
   grid-area: footer;
   z-index: 100;
 }
+.logo {
+  color: var(--footer-header);
+}
+.logoContainer {
+  display: flex;
+  flex-direction: column;
+}
 .firstContainer {
   grid-area: f;
 }
 .header {
-  font-weight: 500;
+  font-weight: 600;
   margin: 0;
-  color: var(--text-footer);
+  color: var(--footer-header);
 }
 .secondContainer {
   grid-area: s;
@@ -29,8 +36,16 @@
 }
 .text {
   margin: 0;
-  font-size: 1.1rem;
-  color: var(--text-footer);
+  font-size: 1rem;
+  color: var(--footer-text);
+  font-weight: 100;
+  font-style: normal;
+}
+.underLogoText {
+  color: var(--footer-header);
+  font-family: "Poiret One";
+  margin-top: 0;
+  font-style: normal;
 }
 @media screen and (max-width: 1990px) {
   .container {
