@@ -5,7 +5,7 @@ import Image from "next/image";
 import logo from "../../../assets/melby_bilsalg_logo.png";
 import Link from "next/link";
 
-const HeaderComponent = () => {
+const HeaderComponent = ({ background, shadow }) => {
   const [openSidebar, setOpenSidebar] = useState(false);
   const [hideSidebar, setHideSidebar] = useState(false);
   const isMobile = useMediaQuery({ query: `(max-width: 1000px)` });
@@ -83,7 +83,8 @@ const HeaderComponent = () => {
       <style jsx>{`
         .container {
           height: 6rem;
-          background: var(--primary);
+          background: ${background};
+          border-bottom: ${shadow};
           display: flex;
           align-items: center;
           justify-content: space-between;
@@ -101,14 +102,14 @@ const HeaderComponent = () => {
         }
         .sidebar-container {
           position: absolute;
-          background-color: var(--primary);
+          background-color: ${background};
           left: 0;
           width: 10rem;
           height: 80vh;
           top: 6rem;
           padding-left: 1rem;
           left: -10rem;
-          z-index: 10;
+          z-index: 100;
         }
         .sidebar-open {
           animation: slide 0.3s forwards;

@@ -21,6 +21,10 @@
   --start-page-red: #c3073f;
   --start-page-yellow: #ff622f;
 
+  /*********** Prosjekter ***********/
+  --prosjekt-header: #fff;
+  /*********** Margins ***********/
+
   --page-margin: 0 30rem;
   --page-margin2: 0 17rem;
   --page-margin3: 0 15rem;
@@ -81,7 +85,7 @@ a {
   font-family: "Poiret One";
   font-size: 2rem;
   margin: 0;
-  color: var(--secondary);
+  color: rgb(13, 17, 29);
   font-style: normal;
   font-weight: normal;
 }

@@ -32,6 +32,7 @@ const InfoCard = ({ icon, header, text }) => {
         .text-container {
           display: grid;
           place-items: center;
+          text-align: center;
         }
       `}</style>
     </>

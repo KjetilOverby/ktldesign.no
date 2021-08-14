@@ -1,15 +1,13 @@
 import React from "react";
+import Image from "next/image";
+import domain from "../../../assets/startpage/domain.webp";
 
 const InfoSection2 = () => {
   return (
     <>
       <div className="container">
         <div className="imgContainer">
-          <img
-            style={{ width: "100%" }}
-            src="https://images.unsplash.com/photo-1586281380426-f644f2dc6ada?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
-            alt=""
-          />
+          <Image src={domain} />
         </div>
         <div>
           <h1 className="header">Nytt domene</h1>
