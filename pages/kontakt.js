@@ -7,7 +7,7 @@ import KontaktPage from "../src/components/kontakt/KontaktPage";
 const kontakt = () => {
   return (
     <PageLayout>
-      <HeaderComponent />
+      <HeaderComponent background={"var(--primary)"} />
       <KontaktPage />
       <FooterComponent />
     </PageLayout>

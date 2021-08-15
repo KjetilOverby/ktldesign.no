@@ -64,7 +64,6 @@
 }
 @media screen and (max-width: 1000px) {
   .container {
-    height: 35rem;
     grid-template-columns: 1rem 1fr 1fr 1fr 1rem;
     grid-template-rows: 1fr 2rem 1fr 1fr;
     grid-template-areas:

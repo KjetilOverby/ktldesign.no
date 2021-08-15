@@ -17,6 +17,11 @@ const PageLayout = ({ children }) => {
             "content"
             "footer";
         }
+        {/* @media screen and (max-width: 756px) {
+          .container {
+            grid-template-rows: 6rem 1fr 5rem;
+          } */}
+        }
       `}</style>
     </>
   );

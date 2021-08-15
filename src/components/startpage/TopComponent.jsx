@@ -8,10 +8,10 @@ const TopComponent = () => {
       <h1 className={styles.header}>KTL DESIGN</h1>
 
       <div className={styles.topHeaderContainer}>
-        <h1 className={styles.topheader1}>MAKE WEBSITE</h1>
+        <h1 className={styles.topheader1}>MAKE ONE WEBSITE</h1>
         <div className={styles.topHeader2Container}>
           <h1 className={styles.topheader2}>MAKE</h1>
-          <h1 className={styles.topheader3}>DREAMS</h1>
+          <h1 className={styles.topheader3}>YOUR DREAM</h1>
         </div>
       </div>
       <div className={styles.textContainer}>
@@ -25,9 +25,9 @@ const TopComponent = () => {
           Ta kontakt for en hyggelig og uforpliktende prat hvis du trenger en
           nettside som ikke koster for mye.
         </h4>
-        <Link href="/kontakt">
-          <button className="btn">Ta kontakt</button>
-        </Link>
+        {/* <Link href="/kontakt">
+          <button className={styles.button}>Ta kontakt</button>
+        </Link> */}
       </div>
     </div>
   );

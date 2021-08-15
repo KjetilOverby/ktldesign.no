@@ -10,14 +10,14 @@ const ImageHeader = ({ header, image }) => {
         .container {
           background: linear-gradient(
               to right,
-              var(--primary-background),
-              rgba(250, 251, 252, 0.144)
+              rgba(39, 107, 121, 0),
+              rgba(39, 107, 121, 0)
             ),
             url(${image});
-          height: 15rem;
+          height: 40rem;
           background-repeat: no-repeat;
           background-size: cover;
-          background-position: 0 64%;
+          background-position: 0 50%;
           display: flex;
           align-items: center;
           justify-content: center;
@@ -26,6 +26,11 @@ const ImageHeader = ({ header, image }) => {
           font-size: 5rem;
           color: #fff;
           font-weight: 200;
+        }
+        @media screen and (max-width: 2100px) {
+          .container {
+            height: 30rem;
+          }
         }
         @media screen and (max-width: 1500px) {
           .container {
@@ -39,7 +44,7 @@ const ImageHeader = ({ header, image }) => {
         }
         @media screen and (max-width: 756px) {
           .container {
-            height: 6rem;
+            height: 8rem;
           }
           .header {
             font-size: 3rem;

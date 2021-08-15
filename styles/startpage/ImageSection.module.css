@@ -8,7 +8,9 @@ https://images.unsplash.com/photo-1516193313597-3ada7b1056a6?ixlib=rb-1.2.1&ixid
 
 https://images.unsplash.com/photo-1418793124283-7935cb656d02?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80
 
+https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80
 
+https://www.rei.com/blog/wp-content/uploads/sites/4/2019/04/El-Chalten-by-Silvestre-Seree.jpg?fit=2000%2C1000
 */
 
 .container {
@@ -18,7 +20,7 @@ https://images.unsplash.com/photo-1418793124283-7935cb656d02?ixlib=rb-1.2.1&ixid
       var(--primary-background2),
       transparent
     ),
-    url("https://images.unsplash.com/photo-1458372128312-1d1c1dd115e4?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1489&q=80");
+    url("../../assets/startpage/climber.jpg");
   height: 85vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -70,7 +72,7 @@ https://images.unsplash.com/photo-1418793124283-7935cb656d02?ixlib=rb-1.2.1&ixid
     grid-template-rows: 5rem 10rem 1fr 20rem;
     grid-template-columns: 12rem 40rem 1fr 1fr 12rem;
     height: 90vh;
-    background-position: 0% -40%;
+    background-position: 0% 0%;
   }
 }
 @media screen and (max-width: 1750px) {

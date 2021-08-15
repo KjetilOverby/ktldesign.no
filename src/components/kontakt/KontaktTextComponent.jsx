@@ -6,28 +6,16 @@ const KontaktTextComponent = () => {
     <>
       <div className="container">
         <div className="first-container">
-          <h1>Melby Bil AS</h1>
-          <p className="text text2">Fredheimkrysset</p>
-          <p className="sub-name">2092 Minnesund</p>
-          <p className="sub-name">Tel: 63 96 88 70</p>
-          <p className="sub-name">Faks: 63 96 46 04</p>
-          <p className="sub-name">Mobil: 90 91 00 25</p>
-          <p className="sub-name">Email: melbybilsalg@gmail.com</p>
+          <h1>Ktl Design</h1>
+          <p className="text text2">Konglebækvegen 9</p>
+          <p className="sub-name">2270 Flisa</p>
+          <p className="sub-name">Tlf: 975 41 236</p>
+          <p className="sub-name">Email: ktldesign80@gmail.com</p>
         </div>
+
         <div className="second-container">
-          <h1>Beliggenhet</h1>
-          <p className="sub-name">
-            Beliggenheten er på Minnesund, kun 30 min. med flybussen nordover
-            fra Oslo Lufthavn Gardermoen.
-          </p>
-          <br />
-          <p className="sub-name">Avstand fra Gjøvik: 63 km.</p>
-          <p className="sub-name">Avstand fra Hamar: 53 km.</p>
-          <p className="sub-name">Avstand fra Oslo: 63 km.</p>
-        </div>
-        <div className="third-container">
           <h1>Facebook</h1>
-          <a href="https://nb-no.facebook.com/pages/category/Motor-Vehicle-Company/Flisa-Bil-As-Bilxtra-Flisa-294696983928901/">
+          <a href="https://facebook.com">
             <h2 className="name">Følg oss på facebook</h2>
             <FaFacebookSquare
               style={{ color: "#2063af", fontSize: "4rem", marginTop: "1rem" }}

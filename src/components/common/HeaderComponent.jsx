@@ -40,10 +40,10 @@ const HeaderComponent = ({ background, shadow }) => {
                     <p className="tabs-mobile">prosjekter</p>
                   </Link>
                   <Link href="/about">
-                    <p className="tabs-mobile">Om Oss</p>
+                    <p className="tabs-mobile">Om</p>
                   </Link>
                   <Link href="/kontakt">
-                    <p className="tabs-mobile">Kontakt Oss</p>
+                    <p className="tabs-mobile">Kontakt</p>
                   </Link>
                 </div>
               )}
@@ -70,11 +70,11 @@ const HeaderComponent = ({ background, shadow }) => {
                 <p className="tabs">prosjekter</p>
               </Link>
               <Link href="/about">
-                <p className="tabs">Om Oss</p>
+                <p className="tabs">om</p>
               </Link>
 
               <Link href="/kontakt">
-                <p className="tabs">Kontakt Oss</p>
+                <p className="tabs">Kontakt</p>
               </Link>
             </>
           )}
