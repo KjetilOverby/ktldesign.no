@@ -12,6 +12,7 @@ const AboutMainPage = () => {
           grid-area: content;
           margin: var(--page-margin);
           padding-bottom: 5rem;
+          padding-top: 8rem;
           display: grid;
           grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
           grid-column-gap: 3rem;
@@ -34,6 +35,7 @@ const AboutMainPage = () => {
         @media screen and (max-width: 1570px) {
           .container {
             margin: var(--page-margin4);
+            padding-top: 5rem;
           }
         }
         @media screen and (max-width: 950px) {
@@ -41,9 +43,9 @@ const AboutMainPage = () => {
             margin: var(--page-margin5);
             grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
             grid-column-gap: 0rem;
+            padding-top: 2rem;
           }
           .imgContainer {
-            order: 2;
           }
         }
       `}</style>

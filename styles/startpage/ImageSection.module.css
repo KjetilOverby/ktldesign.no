@@ -20,7 +20,7 @@ https://www.rei.com/blog/wp-content/uploads/sites/4/2019/04/El-Chalten-by-Silves
       var(--primary-background2),
       transparent
     ),
-    url("../../assets/startpage/climber.jpg");
+    url("../../assets//startpage/manclimber.jpg");
   height: 85vh;
   background-repeat: no-repeat;
   background-size: cover;
@@ -86,7 +86,7 @@ https://www.rei.com/blog/wp-content/uploads/sites/4/2019/04/El-Chalten-by-Silves
   .container {
     grid-template-rows: 5rem 10rem 8rem 20rem;
     grid-template-columns: 5rem 1fr 1fr 1fr 5rem;
-    background-position: 50% -1000%;
+    background-position: 50% 0%;
     grid-template-areas:
       ". . . . ."
       ". top top top ."
@@ -120,7 +120,7 @@ https://www.rei.com/blog/wp-content/uploads/sites/4/2019/04/El-Chalten-by-Silves
     grid-template-columns: 1rem 1fr 1fr 1fr 1rem;
 
     grid-column-gap: 1rem;
-    background-position: 25% 50%;
+
     grid-template-areas:
       ". . . . ."
       ". top top top ."
@@ -130,6 +130,16 @@ https://www.rei.com/blog/wp-content/uploads/sites/4/2019/04/El-Chalten-by-Silves
       ". box3 box3 box3 .";
     min-height: 50vh;
     background-position: 80% 85%;
+  }
+  .topWave2 {
+    position: absolute;
+    top: 4px;
+    transform: rotate(1deg);
+  }
+  .topWave3 {
+    position: absolute;
+    top: 4px;
+    transform: rotate(-1deg);
   }
 }
 @media screen and (max-width: 600px) {

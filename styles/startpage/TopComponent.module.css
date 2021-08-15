@@ -43,7 +43,7 @@
   font-family: "Open Sans", sans-serif;
   font-weight: bold;
   color: var(--start-page-yellow);
-  animation: leftMove 1s;
+  animation: leftMove 1.5s;
 }
 .topheader2 {
   font-size: 6rem;
@@ -68,9 +68,9 @@
 .topHeader2Container {
   display: flex;
   align-items: flex-start;
-  animation: rightMove 1s forwards;
-  animation-delay: 1s;
-  visibility: hidden;
+  animation: rightMove 1.5s forwards;
+  animation-delay: 1.5s;
+  opacity: 0;
 }
 
 @keyframes leftMove {
@@ -83,12 +83,12 @@
 }
 @keyframes rightMove {
   0% {
-    transform: translateX(50rem);
-    visibility: visible;
+    transform: translateY(-4rem);
+    opacity: 0;
   }
   100% {
-    transform: translateX(0);
-    visibility: visible;
+    transform: translateY(0);
+    opacity: 1;
   }
 }
 @media screen and (max-width: 2100px) {
