@@ -24,42 +24,34 @@ const ProjectDisplayPage = () => {
           img={Verktoy2}
           header="Sagbladreigster"
           description="Sagbladregister ble først utviklet for å ha kontroll på antall omloddinger et blad har. Etterhvert har det utviklet seg til å vise statistikk på vrak og service som kan sorteres ut ifra datoer."
+          linkTo="sagbladregister"
         />
         <ProjectCard
           img={Flisabil}
           header="Flisa Bil"
-          description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid similique debitis est autem, repellendus suscipit, fugit corporis quas eligendi aliquam dicta nisi officiis! Sed, accusantium sunt enim mollitia incidunt modi.
+          description="Flisa Bil hadde en utdatert nettside. Jeg snakket med de om de var interessert i en ny nettside som er responsiv. Det var de interessert i så da ble det ny nettside på de.
         "
+          linkTo="/flisabil"
         />
         <ProjectCard
           img={Tool}
-          header="Sagbladregister"
-          description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid similique debitis est autem, repellendus suscipit, fugit corporis quas eligendi aliquam dicta nisi officiis! Sed, accusantium sunt enim mollitia incidunt modi.
+          header="Sagbladregister 2"
+          description="En ny versjon av sagbladretister ble laget for å forbedre appen med ny teknologi.
         "
+          linkTo="sagbladregister2"
         />
         <ProjectCard
           img={Stridsbergs}
           header="Stridsbergs"
-          description="Short description"
+          description="Kvarnstrands og Stridsbergs sin nettside er per i dag ikke helt optimal på mobiler. Nettsiden er fortsatt under utvikling."
+          linkTo="stridsbergs"
         />
         <ProjectCard
           img={Verktoy}
           header="Sagbladoversikt"
-          description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid similique debitis est autem, repellendus suscipit, fugit corporis quas eligendi aliquam dicta nisi officiis! Sed, accusantium sunt enim mollitia incidunt modi.
+          description="Sagbladoversikt er laget for verktøyleverandør så de kan se hvor mange blader som er vraket så det er lettere å se hvor mange ny blader som trengs.
         "
-        />
-
-        <ProjectCard
-          img={fon}
-          header="Fon Massasje"
-          description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid similique debitis est autem, repellendus suscipit, fugit corporis quas eligendi aliquam dicta nisi officiis! Sed, accusantium sunt enim mollitia incidunt modi.
-        "
-        />
-        <ProjectCard
-          img={it}
-          header="It-care"
-          description=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid similique debitis est autem, repellendus suscipit, fugit corporis quas eligendi aliquam dicta nisi officiis! Sed, accusantium sunt enim mollitia incidunt modi.
-        "
+          linkTo="sagbladoversikt"
         />
       </div>
 

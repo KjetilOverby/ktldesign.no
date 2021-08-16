@@ -11,6 +11,8 @@ const SectionLayoutSingle = ({
   img3,
   text4,
   img4,
+  atag1,
+  link1,
 }) => {
   return (
     <>
@@ -23,7 +25,9 @@ const SectionLayoutSingle = ({
             <Image src={img1} layout="responsive" />
           </div>
         )}
-        <p className="info-3-text">{text2}</p>
+        <p className="info-3-text">
+          {text2} {atag1 && <a href={link1}>{atag1}</a>}
+        </p>
         {img2 && (
           <div className="image-container">
             <Image src={img2} />
@@ -63,7 +67,10 @@ const SectionLayoutSingle = ({
         }
         @media screen and (max-width: 2100px) {
           .container {
-            margin: 0 30rem;
+            margin: 3rem 30rem;
+          }
+          .image-container {
+            width: 30rem;
           }
         }
         @media screen and (max-width: 1700px) {
@@ -89,7 +96,7 @@ const SectionLayoutSingle = ({
           }
           .image-container {
             width: 23rem;
-            margin-bottom: 0;
+            margin-bottom: 3rem;
           }
         }
       `}</style>
