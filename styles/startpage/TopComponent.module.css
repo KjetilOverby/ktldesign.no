@@ -151,7 +151,10 @@
   .topheader2 {
     font-size: 3rem;
     margin-left: 0;
-    margin-top: -1rem;
+    margin-top: -1.7rem;
+  }
+  .topheader3 {
+    margin-top: -1.85rem;
   }
   .topHeaderContainer {
     height: 5rem;

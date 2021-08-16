@@ -88,7 +88,7 @@ const ProjectDisplayPage = () => {
         @media screen and (max-width: 950px) {
           .container {
             margin: var(--page-margin5);
-            grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
             grid-column-gap: 0rem;
             margin: 0;
           }

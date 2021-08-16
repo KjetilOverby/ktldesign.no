@@ -39,7 +39,7 @@
 }
 @media screen and (max-width: 950px) {
   .container {
-    margin: 0 1rem;
+    margin: 0 10rem;
     padding: 3rem 0;
     grid-row-gap: 0rem;
     grid-template-columns: repeat(auto-fill, minmax(30rem, 1fr));

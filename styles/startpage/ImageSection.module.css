@@ -144,7 +144,7 @@ https://www.rei.com/blog/wp-content/uploads/sites/4/2019/04/El-Chalten-by-Silves
     transform: rotate(-1deg);
   }
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .container {
     grid-template-rows: 2rem 20rem 10rem 22rem 22rem 22rem;
     background-attachment: initial;

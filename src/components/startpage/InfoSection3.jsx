@@ -58,7 +58,6 @@ const InfoSection3 = () => {
             margin: var(--page-margin-single5);
             grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
             grid-column-gap: 0rem;
-            text-align: left;
           }
           .header {
             margin: 1rem 0;

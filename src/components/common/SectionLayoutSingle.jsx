@@ -85,10 +85,9 @@ const SectionLayoutSingle = ({
         }
         @media screen and (max-width: 950px) {
           .container {
-            margin: 0 0.5rem;
+            margin: 0 2rem;
             grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
             grid-column-gap: 0rem;
-            text-align: left;
             padding-bottom: 0;
           }
           .header {
@@ -98,6 +97,11 @@ const SectionLayoutSingle = ({
             width: 23rem;
             margin-bottom: 3rem;
           }
+        }
+        @media screen and (max-width: 600px) {
+          .container {
+            margin: 0 .5rem;
+            
         }
       `}</style>
     </>

@@ -66,7 +66,6 @@ const InfoSection4 = () => {
             margin: 0 1rem;
             grid-template-columns: repeat(auto-fit, minmax(100%, 1fr));
             grid-column-gap: 0rem;
-            text-align: left;
           }
           .header {
             margin: 1rem 0;
