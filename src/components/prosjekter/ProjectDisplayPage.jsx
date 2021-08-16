@@ -17,12 +17,13 @@ const ProjectDisplayPage = () => {
         <ProjectCard
           img={Post}
           header="Postarkiv"
-          description="Short description"
+          description="Postarkiv er en kalkulator for oppsett av poster i en sag. Denne regner ut utfyllingsringer som skal brukes etter at uttaket fra en stokk er lagt inn. Dette programmet er laget spesielt til en MKV sag fra tyske produsenten Linck, med doble akslinger."
+          linkTo="/postarkiv"
         />
         <ProjectCard
           img={Verktoy2}
           header="Sagbladreigster"
-          description="Short description"
+          description="Sagbladregister ble først utviklet for å ha kontroll på antall omloddinger et blad har. Etterhvert har det utviklet seg til å vise statistikk på vrak og service som kan sorteres ut ifra datoer."
         />
         <ProjectCard
           img={Flisabil}

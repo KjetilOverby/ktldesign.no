@@ -130,6 +130,8 @@ https://www.rei.com/blog/wp-content/uploads/sites/4/2019/04/El-Chalten-by-Silves
       ". box3 box3 box3 .";
     min-height: 50vh;
     background-position: 80% 85%;
+
+    background-attachment: fixed;
   }
   .topWave2 {
     position: absolute;
@@ -146,6 +148,15 @@ https://www.rei.com/blog/wp-content/uploads/sites/4/2019/04/El-Chalten-by-Silves
   .container {
     grid-template-rows: 2rem 20rem 10rem 22rem 22rem 22rem;
     background-attachment: initial;
+    background: linear-gradient(
+        to right,
+        var(--primary-background),
+        var(--primary-background2),
+        transparent
+      ),
+      url("../../assets//startpage/manclimber.jpg");
+    background-size: cover;
+    background-position: 20%;
   }
 }
 @media screen and (max-height: 600px) {

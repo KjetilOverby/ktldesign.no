@@ -1,7 +1,8 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 
-const ProjectCard = ({ img, header, description }) => {
+const ProjectCard = ({ img, header, description, linkTo }) => {
   return (
     <>
       <div className="container">
@@ -9,10 +10,15 @@ const ProjectCard = ({ img, header, description }) => {
           <Image src={img} layout="responsive" />
           <h1 className="header">{header}</h1>
           <p className="description">{description}</p>
-          <h3>Les mer</h3>
+          <Link href={`${linkTo}`}>
+            <h3 className="btn">Les mer</h3>
+          </Link>
         </div>
       </div>
       <style jsx>{`
+        .btn:hover {
+          cursor: pointer;
+        }
         .container {
           display: flex;
           justify-content: center;
