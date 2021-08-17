@@ -16,6 +16,7 @@ const InfoCard = ({ icon, header, text }) => {
           flex-direction: column;
           align-items: center;
           margin-bottom: 5rem;
+          text-align: center;
         }
         .icon-container {
           height: 5rem;

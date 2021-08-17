@@ -10,11 +10,11 @@ const ImageHeader = ({ header, image }) => {
         .container {
           background: linear-gradient(
               to right,
-              rgba(39, 107, 121, 0),
-              rgba(39, 107, 121, 0)
+              rgba(0, 0, 0, 0.5),
+              rgba(0, 0, 0, 0.5)
             ),
             url(${image});
-          height: 40rem;
+          height: 20rem;
           background-repeat: no-repeat;
           background-size: cover;
           background-position: 0 50%;
@@ -29,7 +29,7 @@ const ImageHeader = ({ header, image }) => {
         }
         @media screen and (max-width: 2100px) {
           .container {
-            height: 30rem;
+            height: 15rem;
           }
         }
         @media screen and (max-width: 1500px) {

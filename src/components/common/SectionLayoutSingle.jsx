@@ -22,7 +22,7 @@ const SectionLayoutSingle = ({
 
         {img1 && (
           <div className="image-container">
-            <Image src={img1} layout="responsive" />
+            <Image priority src={img1} layout="responsive" />
           </div>
         )}
         <p className="info-3-text">
