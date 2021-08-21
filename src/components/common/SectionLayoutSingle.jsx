@@ -3,6 +3,7 @@ import Image from "next/image";
 
 const SectionLayoutSingle = ({
   header,
+  header2,
   text1,
   img1,
   text2,
@@ -28,6 +29,7 @@ const SectionLayoutSingle = ({
         <p className="info-3-text">
           {text2} {atag1 && <a href={link1}>{atag1}</a>}
         </p>
+        {header2 && <h1 className="header">{header2}</h1>}
         {img2 && (
           <div className="image-container">
             <Image src={img2} />
