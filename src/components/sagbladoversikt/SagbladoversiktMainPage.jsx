@@ -1,6 +1,10 @@
 import React from "react";
 import SectionLayoutSingle from "../common/SectionLayoutSingle";
 import charts from "../../../assets/sagbladoversikt/charts.jpg";
+import overview from "../../../assets/sagbladoversikt/overview.png";
+import date from "../../../assets/sagbladoversikt/date.png";
+import omlodd from "../../../assets/sagbladoversikt/omlodd.png";
+import ImageDisplay from "../common/ImageDisplay";
 
 const SagbladoversiktMainPage = () => {
   return (
@@ -8,10 +12,12 @@ const SagbladoversiktMainPage = () => {
       <div className="container">
         <SectionLayoutSingle
           header="Sagbladoversikt"
-          text1="Lorem ipsum dolor sit, amet consectetur adipisicing elit. Enim quidem voluptas at, atque tempore ipsum possimus nulla accusantium quis rem? Distinctio in quaerat delectus nihil consectetur. Modi recusandae aspernatur molestias.
-Praesentium ipsa fugit labore asperiores quasi? Dolor nesciunt voluptatibus nihil exercitationem fuga illum reprehenderit, facere eum assumenda deserunt aspernatur accusamus similique! Delectus consequatur officiis iure consectetur at! Ipsum, nobis vel."
+          text1="Sagbladoversikt ble laget for verktøyleverandør så de kan se hvor mye blad som er vraket i løpet av en periode. De kan da sende tilsvarende antall nye blad for den perioden. Dette gjør at bladene ikke trenger å bestilles og at det ikke blir alt for mye blad på lager."
           img1={charts}
         />
+        <ImageDisplay img1={overview} />
+        <ImageDisplay img1={date} />
+        <ImageDisplay img1={omlodd} />
       </div>
       <style jsx>{`
         .container {
