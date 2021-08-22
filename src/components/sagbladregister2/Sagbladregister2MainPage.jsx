@@ -11,7 +11,7 @@ const Sagbladregister2MainPage = () => {
       <div className="container">
         <SectionLayoutSingle
           header="Sagbladregister 2"
-          text1="En ny versjon av sagbladregister blir lagd med litt annen type teknologi. Prosjektet bruker fortsatt den samme databasen så data trenger man ikke å legge inn på nytt"
+          text1="En ny versjon av sagbladregister blir lagd med litt annen type teknologi. Prosjektet bruker fortsatt den samme databasen så data trenger man ikke å legge inn på nytt. Denne nettsiden har innlogging og uautoriserte får ikke tilgang til å se nettsiden."
         />
         <ImageDisplay img1={front} />
         <ImageDisplay img1={result} />

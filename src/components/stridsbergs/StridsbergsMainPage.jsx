@@ -8,10 +8,14 @@ const StridsbergsMainPage = () => {
       <div className="container">
         <SectionLayoutSingle
           header="Kvarnstrands & Stridsbergs"
-          text1="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis at harum, ab, excepturi, numquam voluptates laudantium maxime debitis distinctio quae quasi adipisci exercitationem. Vitae esse exercitationem dolore nisi sequi dolores?"
+          text1="Kvarnstrands & Stridsbergs har som mange andre en nettside som ikke er så mobilvennlig. Det er også flere steder der det ikke ser helt bra ut også på pc skjermer."
           img1={blades}
-          text2="Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore excepturi quod minus consequuntur natus sed doloribus earum rerum. Veniam perferendis nihil, et molestias laudantium hic molestiae enim eveniet consequatur rerum!
-          Eum minus magnam error quibusdam ullam enim nemo doloremque quisquam, deleniti assumenda laboriosam soluta. Unde eum, dolorem reiciendis asperiores, magni commodi laborum veniam ab iste sequi in ex placeat similique?"
+          text2="Kvarnstrands & Stridsbergs har fortsatt den nettsiden som ikke er helt optmal den kan du gå inn å se på her: "
+          atag1="stridsbergs.no"
+          link1="https://www.stridsberg.no/"
+          text3="Her er en link til nettsiden som fortsatt er under utvikling. Det er fortsatt en del eksempelbilder som skal byttes ut, det skal etterhvert tas nye bilder til nettsiden. Se på forløpig resultat av nettsiden"
+          atag2="her"
+          link2="https://stridsbergs3.vercel.app/"
         />
       </div>
       <style jsx>{`

@@ -14,6 +14,8 @@ const SectionLayoutSingle = ({
   img4,
   atag1,
   link1,
+  atag2,
+  link2,
 }) => {
   return (
     <>
@@ -35,7 +37,9 @@ const SectionLayoutSingle = ({
             <Image src={img2} />
           </div>
         )}
-        <p className="info-3-text">{text3}</p>
+        <p className="info-3-text">
+          {text3} {atag2 && <a href={link2}>{atag2}</a>}
+        </p>
         {img3 && (
           <div className="image-container">
             <Image src={img3} />
@@ -50,8 +54,7 @@ const SectionLayoutSingle = ({
       </div>
       <style jsx>{`
         .container {
-          margin: 5rem 45rem;
-          padding-bottom: 5rem;
+          margin: 5rem 45rem 0 45rem;
           display: grid;
           place-items: center;
           text-align: center;
