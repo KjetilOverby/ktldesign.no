@@ -1,14 +1,11 @@
 import React from "react";
-import Flisabil from "../../../assets/prosjekter/flisabilDesktop.png";
-import Mkv from "../../../assets/prosjekter/mkvDesktop.png";
-import Tool from "../../../assets/prosjekter/toolDesktop.png";
-import Stridsbergs from "../../../assets/prosjekter/stridsbergsDesktop.png";
-import Verktoy from "../../../assets/prosjekter/verktoyDesktop.png";
-import Verktoy2 from "../../../assets/prosjekter/verktoy2Desktop.png";
-import Post from "../../../assets/prosjekter/postDesktop.png";
+import Flisabil from "../../../assets/prosjekter/flisabilScreen.png";
+import Tool from "../../../assets/prosjekter/sagbladregister2screen.png";
+import Stridsbergs from "../../../assets/prosjekter/stridsbergsscreen.png";
+import Verktoy from "../../../assets/prosjekter/sagbladoversiktscreen.png";
+import Verktoy2 from "../../../assets/prosjekter/sagbladregisterscreen.png";
+import Post from "../../../assets/prosjekter/postarkivscreen.png";
 import ProjectCard from "./ProjectCard";
-import fon from "../../../assets/prosjekter/fonmassasje.jpg";
-import it from "../../../assets/prosjekter/itDesktop.png";
 
 const ProjectDisplayPage = () => {
   return (
