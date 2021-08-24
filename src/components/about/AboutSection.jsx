@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import person from "../../../assets/person.webp";
+import person from "../../../assets/profile3.jpg";
 const AboutSection = () => {
   return (
     <>

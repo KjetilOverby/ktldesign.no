@@ -16,7 +16,7 @@ const TopComponent = () => {
       </div>
       <div className={styles.textContainer}>
         <p className={styles.text}>
-          Jeg er en privatperson som jobber som freelancing og bygger statiske
+          Jeg er en privatperson som jobber som frilanser og bygger statiske
           nettsider til bedrifter og privat. Ingen store utgifter, men en
           månedsleie av nettsiden etter at den er publisert. Avslutt leien når
           som helst dersom du/dere vil gå over til en annen tjeneste.
