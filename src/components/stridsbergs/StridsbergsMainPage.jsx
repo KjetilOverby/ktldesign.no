@@ -1,6 +1,6 @@
 import React from "react";
 import SectionLayoutSingle from "../common/SectionLayoutSingle";
-import blades from "../../../assets/stridsbergs/sawblades.png";
+import blades from "../../../assets/stridsbergs/sawblades.jpg";
 
 const StridsbergsMainPage = () => {
   return (
@@ -10,6 +10,7 @@ const StridsbergsMainPage = () => {
           header="Kvarnstrands & Stridsbergs"
           text1="Kvarnstrands & Stridsbergs har som mange andre en nettside som ikke er så mobilvennlig. Det er også flere steder der det ikke ser helt bra ut også på pc skjermer."
           img1={blades}
+          imgSize="50%"
           text2="Kvarnstrands & Stridsbergs har fortsatt den nettsiden som ikke er helt optmal den kan du gå inn å se på her: "
           atag1="stridsbergs.no"
           link1="https://www.stridsberg.no/"

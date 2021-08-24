@@ -14,6 +14,7 @@ const SagbladoversiktMainPage = () => {
           header="Sagbladoversikt"
           text1="Sagbladoversikt ble laget for verktøyleverandør så de kan se hvor mye blad som er vraket i løpet av en periode. De kan da sende tilsvarende antall nye blad for den perioden. Dette gjør at bladene ikke trenger å bestilles og at det ikke blir alt for mye blad på lager."
           img1={charts}
+          imgSize="100%"
         />
         <ImageDisplay img1={overview} />
         <ImageDisplay img1={date} />

@@ -18,6 +18,8 @@ const PostArkivMainPage = () => {
           header="Postarkiv"
           text1="Postarkiv er et program til en saglinje av produsenten Linck. Den er til å regne ut utfylling for å få sentrert sagblader og ringer på en hylse. Man legger inn hvilke tykkelser plankene skal ha, hvilke sagbladtykkelse man skal bruke og da regner programmet automatisk ut hva utfyllinge foran blir for å sentrere posten. Også utfylling bak sånn at mutterne som skal dras igjen kommer på samme posisjon uansett hvilke dimensjoner som blir lagt inn. Dersom posisjonen på mutterne ikke er der de skal så kan man være sikker på at det er en feil ring et sted."
           img1={postuttak}
+          imgSize="40rem"
+          imgSize2="30rem"
           text2="Det begynte i April 2016, da lagde jeg en post-kalkulator i Microsoft Excel (før jeg hadde begynt med programmering).
 
           I det originale utregningsprogrammet som er med i saglinja regner kun ut utfylling foran, og man må opp til saghuset og få det printet ut på papir for å så regne ut hvilke ringer som skal brukes. På denne tiden var det mye testing med nye mål og vi måtte stadig få nye post utskrifter. Jeg etterspurte programmet som de bruker på saga til sliperiet så vi kunne lage disse postene selv, men det ble aldri noe av. Det var da jeg kom på ideen om å lage et eget utregningsprogram så man kan bare lage postene selv og lagre dem så de blir enklere å finne. Dette Excelprogrammet erstatter det gamle systemet. Det blir brukt i nesten 4 år før et nytt program blir til."

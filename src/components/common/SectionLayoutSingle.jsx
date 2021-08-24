@@ -16,6 +16,8 @@ const SectionLayoutSingle = ({
   link1,
   atag2,
   link2,
+  imgSize,
+  imgSize2,
 }) => {
   return (
     <>
@@ -67,7 +69,7 @@ const SectionLayoutSingle = ({
           margin-bottom: 5rem;
         }
         .image-container {
-          width: 40rem;
+          width: ${imgSize};
           margin-bottom: 2rem;
         }
         @media screen and (max-width: 2100px) {
@@ -75,7 +77,7 @@ const SectionLayoutSingle = ({
             margin: 3rem 30rem;
           }
           .image-container {
-            width: 30rem;
+            width: ${imgSize2};
           }
         }
         @media screen and (max-width: 1700px) {
