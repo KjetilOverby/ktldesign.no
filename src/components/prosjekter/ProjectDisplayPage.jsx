@@ -1,5 +1,5 @@
 import React from "react";
-import Flisabil from "../../../assets/prosjekter/flisabilScreen.png";
+import Flisabil from "../../../assets/prosjekter/flisabilscreen.png";
 import Tool from "../../../assets/prosjekter/sagbladregister2screen.png";
 import Stridsbergs from "../../../assets/prosjekter/stridsbergsscreen.png";
 import Verktoy from "../../../assets/prosjekter/sagbladoversiktscreen.png";
