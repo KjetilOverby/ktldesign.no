@@ -2,8 +2,8 @@ import React, { useState, useEffect } from "react";
 import { useMediaQuery } from "react-responsive";
 import { IoMenuSharp } from "react-icons/io5";
 import Image from "next/image";
-import logo from "../../../assets/melby_bilsalg_logo.png";
 import Link from "next/link";
+import logo from "../../../assets/ktl_design_logo3.png";
 
 const HeaderComponent = ({ background, shadow }) => {
   const [openSidebar, setOpenSidebar] = useState(false);
@@ -17,7 +17,8 @@ const HeaderComponent = ({ background, shadow }) => {
     <>
       <div className="container">
         <div className="logoContainer">
-          <p className="logo-font">ktl_design</p>
+          {/* <p className="logo-font">ktl_design</p> */}
+          <Image src={logo} />
         </div>
         <div className="tabContainer">
           {isMobile ? (

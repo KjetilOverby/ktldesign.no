@@ -18,6 +18,7 @@
 .logoContainer {
   display: flex;
   flex-direction: column;
+  width: 13.8rem;
 }
 .firstContainer {
   grid-area: f;

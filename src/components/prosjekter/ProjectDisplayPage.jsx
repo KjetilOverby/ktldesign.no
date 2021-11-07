@@ -5,6 +5,7 @@ import Stridsbergs from "../../../assets/prosjekter/stridsbergsscreen.png";
 import Verktoy from "../../../assets/prosjekter/sagbladoversiktscreen.png";
 import Verktoy2 from "../../../assets/prosjekter/sagbladregisterscreen.png";
 import Post from "../../../assets/prosjekter/postarkivscreen.png";
+import Skurliste from "../../../assets/prosjekter/skurliste.png";
 import ProjectCard from "./ProjectCard";
 
 const ProjectDisplayPage = () => {
@@ -49,6 +50,12 @@ const ProjectDisplayPage = () => {
           description="Sagbladoversikt er laget for verktøyleverandør så de kan se hvor mange blader som er vraket så det er lettere å se hvor mange ny blader som trengs.
         "
           linkTo="sagbladoversikt"
+        />
+        <ProjectCard
+          img={Skurliste}
+          header="Skurplan"
+          description="En videreutvikling av Postarkiv der man ikke lenger trenger å søke etter post som skal bygges, men klikke rett på skurplanlista og få opp den posten som skal brukes med en gang."
+          linkTo=""
         />
       </div>
 

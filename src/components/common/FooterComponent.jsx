@@ -2,15 +2,17 @@ import React from "react";
 import styles from "../../../styles/common/Footer.module.css";
 import Image from "next/image";
 import bilxtraLogo from "../../../assets/melby_bilsalg_logo.png";
+import logo from "../../../assets/ktl_design_logo3.png";
 
 const FooterComponent = () => {
   return (
     <div className={styles.container}>
       <div className={styles.firstContainer}>
         <div className={styles.logoContainer}>
-          <h2 style={{ color: "var(--footer-header)" }} className="logo-font">
+          {/* <h2 style={{ color: "var(--footer-header)" }} className="logo-font">
             ktl_design
-          </h2>
+          </h2> */}
+          <Image src={logo} />
           <p className={styles.underLogoText}>make website, wake dreams</p>
         </div>
 

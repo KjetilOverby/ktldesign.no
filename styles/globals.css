@@ -3,8 +3,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;300;400&display=swap");
 
 :root {
+  --primary: #25274d;
+  --secondary: #ffffff;
+  --primary-background: #1f1f1f;
+  --primary-background2: #00000059;
+
+  --footer-primary: #272727;
+  --footer-text: aaabbb;
+  --footer-header: #2e9cca;
+
+  --text-image-section: rgb(247, 239, 228);
+  --text-footer: #068fd4;
+  --header: #455568;
+  --text: rgb(85, 85, 85);
+
+  --start-page-red: #c3073f;
+  --start-page-yellow: #2e9cca;
   /* --primary: #fef9c7; */
-  --primary: #455568;
+  /* --primary: #455568;
   --secondary: #14a76c;
   --primary-background: #1f1f1f;
   --primary-background2: #00000059;
@@ -19,7 +35,7 @@
   --text: rgb(85, 85, 85);
 
   --start-page-red: #c3073f;
-  --start-page-yellow: #f06334;
+  --start-page-yellow: #f06334; */
 
   /*********** Prosjekter ***********/
   --prosjekt-header: #fff;
@@ -79,7 +95,7 @@ a {
   font-family: "Poiret One";
   font-size: 2rem;
   margin: 0;
-  color: rgb(156, 173, 223);
+  color: var(--start-page-yellow);
   font-style: normal;
   font-weight: normal;
 }
